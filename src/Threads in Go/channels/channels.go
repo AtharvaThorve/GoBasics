@@ -6,7 +6,7 @@ import (
 
 /********************************************************************************************************
 Unbuffered Channels
-Channels are used for communication between two or more goroutines.
+Channels are used for communication between two goroutines.
 They are typed so you need to specifiy the type while making the goroutines.
 The type specifies what type of data will be transfered between 2 goroutines.
 Channels are by default unbuffered if one task sends data to a channel then it'll wait for the other task
