@@ -23,7 +23,7 @@ func main() {
 
 	fmt.Println()
 
-	for _, v := range z {
+	for _, v := range y {
 		fmt.Printf("val: %d ", v) // If index is not required
 	}
 }
